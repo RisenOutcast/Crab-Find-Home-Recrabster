@@ -9,6 +9,9 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+*/Library
+*/obj
+*/logs
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
