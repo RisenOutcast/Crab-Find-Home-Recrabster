@@ -199,10 +199,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b9167f9735e384aaa53a820919d2c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Name: Elite Starthrower
   Health: 20
   Attack: 45
   Speed: 8
   worth: 25
+  description: This crab throws sharp stars while keeping it's distance from the player.
+    It has earned a stronger shell, giving it more durability and swifter movement.
   isRanged: 1
   isMelee: 0
   isCreep: 0

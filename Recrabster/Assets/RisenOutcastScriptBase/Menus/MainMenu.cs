@@ -10,6 +10,8 @@ namespace RO.Crab
     {
         public GameObject Leaderboard;
         public GameObject Settings;
+        public GameObject Controls;
+        public GameObject Wiki;
 
         private void Update()
         {
@@ -37,6 +39,8 @@ namespace RO.Crab
             {
                 Leaderboard.SetActive(true);
                 Settings.SetActive(false);
+                Controls.SetActive(false);
+                Wiki.SetActive(false);
             }
         }
 
@@ -50,6 +54,38 @@ namespace RO.Crab
             {
                 Settings.SetActive(true);
                 Leaderboard.SetActive(false);
+                Controls.SetActive(false);
+                Wiki.SetActive(false);
+            }
+        }
+
+        public void openControls()
+        {
+            if (Controls.activeSelf)
+            {
+                Controls.SetActive(false);
+            }
+            else
+            {
+                Controls.SetActive(true);
+                Leaderboard.SetActive(false);
+                Settings.SetActive(false);
+                Wiki.SetActive(false);
+            }
+        }
+
+        public void openWiki()
+        {
+            if (Wiki.activeSelf)
+            {
+                Wiki.SetActive(false);
+            }
+            else
+            {
+                Wiki.SetActive(true);
+                Controls.SetActive(false);
+                Leaderboard.SetActive(false);
+                Settings.SetActive(false);
             }
         }
     }

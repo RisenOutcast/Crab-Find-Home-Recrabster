@@ -277,10 +277,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b9167f9735e384aaa53a820919d2c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Name: Buff
   Health: 25
-  Attack: 45
+  Attack: 55
   Speed: 3
   worth: 25
+  description: Strong type of crab that uses it's large claws to deal a great amount
+    of damage.
   isRanged: 0
   isMelee: 1
   isCreep: 0

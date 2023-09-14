@@ -247,10 +247,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b9167f9735e384aaa53a820919d2c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Name: Yellow
   Health: 5
   Attack: 45
   Speed: 3
   worth: 5
+  description: Normal type of crab that moves towards the player and deals damage
+    on touch.
   isRanged: 0
   isMelee: 0
   isCreep: 1

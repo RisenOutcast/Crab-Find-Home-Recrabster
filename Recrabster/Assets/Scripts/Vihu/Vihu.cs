@@ -7,10 +7,12 @@ namespace RO.Crab
 {
     public class Vihu : MonoBehaviour
     {
+        public string Name;
         public int Health = 100;
         public int Attack = 45;
         public float Speed = 50f;
         public int worth;
+        public string description;
 
         public bool isRanged = false;
         public bool isMelee = false;

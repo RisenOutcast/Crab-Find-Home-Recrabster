@@ -23,8 +23,6 @@ namespace RO.Crab {
 
         string PostScoreURL = "https://risenoutcast.com/CFHRLeaderboard/putCFHRLeaderboardData.php";
 
-        //REMOVE AFTER TEST
-        //int ro_id = 1;
         string username;
         int uppauspoints;
 

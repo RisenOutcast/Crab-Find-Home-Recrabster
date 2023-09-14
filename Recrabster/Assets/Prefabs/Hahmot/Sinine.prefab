@@ -167,10 +167,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b9167f9735e384aaa53a820919d2c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Name: Blue
   Health: 8
-  Attack: 45
+  Attack: 50
   Speed: 4
   worth: 10
+  description: Harder type of crab that moves towards the player and deals a great
+    deal of damage on touch.
   isRanged: 0
   isMelee: 0
   isCreep: 1

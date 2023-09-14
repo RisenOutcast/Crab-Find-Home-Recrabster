@@ -278,10 +278,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b9167f9735e384aaa53a820919d2c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Name: Starthrower
   Health: 10
   Attack: 45
   Speed: 5
   worth: 15
+  description: This crab throws sharp stars while keeping it's distance from the player.
   isRanged: 1
   isMelee: 0
   isCreep: 0

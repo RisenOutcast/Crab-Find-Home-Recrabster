@@ -167,10 +167,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b9167f9735e384aaa53a820919d2c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Name: Ironskin Buff
   Health: 45
-  Attack: 45
+  Attack: 60
   Speed: 4
   worth: 45
+  description: Strong type of crab that uses it's large claws to deal a great amount
+    of damage and has a harder protection from getting hurt.
   isRanged: 0
   isMelee: 1
   isCreep: 0
